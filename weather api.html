@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/litera/bootstrap.min.css"
+    integrity="sha384-enpDwFISL6M3ZGZ50Tjo8m65q06uLVnyvkFO3rsoW0UC15ATBFz3QEhr3hmxpYsn" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <h1 class="text-center mt-3">My WEATHER APP</h1>
+
+  <div class="inputcity">
+
+    <input type="text" id="cityname" name="cityname" placeholder="Enter City Name    Eg:-New York">
+    <button type="submit" class="button" onclick="city()">Submit</button>
+  </div>
+
+
+  <div class="center">
+
+
+    <div class="card ">
+      <div class="top">
+        <a href="#" class="source">View Page Source</a>
+
+
+        <div class="descr">
+
+          <div class="weather-icon"><img src="icons/unknown.png" /></div>
+          <h3 class="weath-descr font-weight-bold">Clear Skies</h3>
+        </div>
+      </div>
+
+      <div class="bottom">
+        <h1 class="city">
+          <div class="loc">Mansa, Punjab, IN</div>
+        </h1>
+        <p class="date">11.21 AM. 02-02-2021</p>
+        <h1 class="temp">32.00 C</h1>
+        <p class="minmax"><span class="min"> Min 5C</span> || <span class="max"> Max 35C</span></p>
+      </div>
+
+      <footer>Created By :Khagesh Bansal</footer>
+
+
+    </div>
+
+
+  </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<script src="script.js"></script>
+
+</html>
