@@ -23,7 +23,7 @@ function city() {
     if (cityname.value == "") {
     alert("Enter a city Name.");}
     else{
-    getText(`http://api.openweathermap.org/data/2.5/weather?q=${cityname.value}&units=metric&appid=dd2148c708035bd9df9580495995612a`);
+    getText(`https://api.openweathermap.org/data/2.5/weather?q=${cityname.value}&units=metric&appid=dd2148c708035bd9df9580495995612a`);
     cityname.value = ""
 
     document.querySelector(".center").style.display = "flex";
